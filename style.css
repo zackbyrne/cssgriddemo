@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 65.5%;
+}
+
+.box{
+    padding: 5rem;
+}
+
+.gridContainer{
+    border: 1rem solid #333;
+    display: grid;
+    grid-template-columns: 20rem 1fr 20rem;
+}
+
+.one-box{
+    background: red;
+}
+
+.two-box{
+    background: green;
+}
+
+.three-box{
+    background: orange;
+}
+
+.four-box{
+    background: purple;
+}
+
+.five-box{
+    background: blue;
+}
